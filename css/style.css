@@ -1,0 +1,124 @@
+/*General Styles*/
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #fff;
+    color: #202020;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+.navbar-top .container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,22px);
+    padding-left: var(--bs-gutter-x,22px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul{
+    list-style: none;
+    box-sizing: border-box;
+}
+
+li {
+    display: list-item;
+    text-align: var(--webkit-match-parent);
+}
+
+a, input {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    background-color: initial;
+}
+
+a:any-link {
+    cursor: pointer;
+}
+
+a:hover{
+    color: #ffd919;
+}
+
+/*Header*/
+/*Banner*/
+
+
+.navbar-top {
+    background-color: #202020;
+    color: #fff;
+    padding: 7px 0;
+    font-weight: 400;
+}
+
+.navbar-top .container {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.text-sm {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.navbar-top-list {
+    color: #ffd919;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+}
+
+.navbar-top-list-item {
+    white-space: nowrap;
+}
+
+.navbar-top-list-link {
+    display: flex;
+    -webkit-box-align: var(center);
+    align-items: center;
+}
+/*Navbar*/
+.navbar-box {
+    position: relative;
+    z-index: 100;
+    -webkit-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+}
+
+.sticky-lg-top {
+    background-color: #fff;
+}
+
+.fixed-top {
+    background-color: #fff;
+}
+
+/*Footer*/
+footer {
+    font-weight: 400;
+}
+
+footer p {
+    background-color: #202020;
+    color: #fff;
+}
+
+.logo-pic {
+    max-width: 30%;
+    height: auto;
+}
+
+
+
