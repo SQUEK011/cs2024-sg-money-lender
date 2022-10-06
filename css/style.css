@@ -46,9 +46,10 @@ a:any-link {
     cursor: pointer;
 }
 
-a:hover{
-    color: #ffd919;
+a:hover {
+    text-decoration: underline;
 }
+
 
 /*Header*/
 /*Banner*/
@@ -105,6 +106,10 @@ a:hover{
     background-color: #fff;
 }
 
+.navbar .nav-link:hover{
+    color: #ffd919;
+}
+
 /*Footer*/
 footer {
     font-weight: 400;
@@ -120,5 +125,53 @@ footer p {
     height: auto;
 }
 
+footer .nav-link{
+    color: inherit;
+}
 
+footer .nav-link:hover {
+    color: #ffd919;
+}
 
+/*Header*/
+.head-banner-wrapper .lazyloaded {
+    vertical-align: middle;
+    height: 560px;
+    width: auto;
+    max-width: 100%;
+}
+
+.btn-xl {
+    padding: 10px 20px;
+    margin: 10px;
+    align-items: center;
+    min-width: 300px;
+    width: 70%;
+    height: 50px;
+    font-weight: 400;
+    box-shadow: 0 5px 20px;
+}
+
+/*Company Reputation*/
+
+/*Loan-Types*/
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+  
