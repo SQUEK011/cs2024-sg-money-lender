@@ -1,177 +1,242 @@
 /*General Styles*/
 body {
-    font-family: 'Rubik', sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-    background-color: #fff;
-    color: #202020;
-    margin: 0;
-    padding: 0;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #fff;
+  color: #202020;
+  margin: 0;
+  padding: 0;
 }
 
 div {
-    display: block;
+  display: block;
 }
 
 .navbar-top .container {
-    width: 100%;
-    padding-right: var(--bs-gutter-x,22px);
-    padding-left: var(--bs-gutter-x,22px);
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 22px);
+  padding-left: var(--bs-gutter-x, 22px);
+  margin-right: auto;
+  margin-left: auto;
 }
 
-ul{
-    list-style: none;
-    box-sizing: border-box;
+ul {
+  list-style: none;
+  box-sizing: border-box;
 }
 
 li {
-    display: list-item;
-    text-align: var(--webkit-match-parent);
+  display: list-item;
+  text-align: var(--webkit-match-parent);
 }
 
-a, input {
-    font-size: inherit;
-    font-weight: inherit;
+a,
+input {
+  font-size: inherit;
+  font-weight: inherit;
 }
 
-a{
-    color: inherit;
-    text-decoration: none;
-    background-color: initial;
+a {
+  color: inherit;
+  text-decoration: none;
+  background-color: initial;
 }
 
 a:any-link {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 /*Header*/
 /*Banner*/
 
-
 .navbar-top {
-    background-color: #202020;
-    color: #fff;
-    padding: 7px 0;
-    font-weight: 400;
+  background-color: #202020;
+  color: #fff;
+  padding: 7px 0;
+  font-weight: 400;
 }
 
 .navbar-top .container {
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
 }
 
 .text-sm {
-    font-size: 12px;
-    line-height: 16px;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .navbar-top-list {
-    color: #ffd919;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 14px;
-    display: flex;
+  color: #ffd919;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
 }
 
 .navbar-top-list-item {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .navbar-top-list-link {
-    display: flex;
-    -webkit-box-align: var(center);
-    align-items: center;
+  display: flex;
+  -webkit-box-align: var(center);
+  align-items: center;
 }
 /*Navbar*/
 .navbar-box {
-    position: relative;
-    z-index: 100;
-    -webkit-transition: background-color .2s ease;
-    transition: background-color .2s ease;
+  position: relative;
+  z-index: 100;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 .sticky-lg-top {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .fixed-top {
-    background-color: #fff;
+  background-color: #fff;
 }
 
-.navbar .nav-link:hover{
-    color: #ffd919;
+.navbar .nav-link:hover {
+  color: #ffd919;
 }
 
 /*Footer*/
 footer {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 footer p {
-    background-color: #202020;
-    color: #fff;
+  background-color: #202020;
+  color: #fff;
 }
 
 .logo-pic {
-    max-width: 30%;
-    height: auto;
+  max-width: 30%;
+  height: auto;
 }
 
-footer .nav-link{
-    color: inherit;
+footer .nav-link {
+  color: inherit;
 }
 
 footer .nav-link:hover {
-    color: #ffd919;
+  color: #ffd919;
 }
 
 /*Header*/
 .head-banner-wrapper .lazyloaded {
-    vertical-align: middle;
-    height: 560px;
-    width: auto;
-    max-width: 100%;
+  vertical-align: middle;
+  height: 560px;
+  width: auto;
+  max-width: 100%;
 }
 
 .btn-xl {
-    padding: 10px 20px;
-    margin: 10px;
-    align-items: center;
-    min-width: 300px;
-    width: 70%;
-    height: 50px;
-    font-weight: 400;
-    box-shadow: 0 5px 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  align-items: center;
+  min-width: 300px;
+  width: 70%;
+  height: 50px;
+  font-weight: 400;
+  box-shadow: 0 5px 20px;
 }
 
 /*Company Reputation*/
+.tick-pointers li {
+  margin: 0;
+	padding: 25px 0 20px 50px;
+	list-style: none;
+	background-image: url(../assets/patch-check.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+
+  text-align: justify;
+  font-size: 20px;
+}
 
 /*Loan-Types*/
-.blog .carousel-indicators {
-	left: 0;
-	top: auto;
-    bottom: -40px;
-
+.card-wrapper {
+  display: flex;
 }
 
-/* The colour of the indicators */
-.blog .carousel-indicators li {
-    background: #a3a3a3;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
+.card-wrapper .card {
+  margin: 0 0.5em;
+  width: calc(100% / 3);
 }
 
-.blog .carousel-indicators .active {
-background: #707070;
+/*How to Apply*/
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-  
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 5rem
+}
+
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 10.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 10.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 12rem;
+    text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b82f6
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "";
+    background-color: #3b82f6;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: .5
+}
+
+.loan-types-container .card img {
+    opacity: 75%;
+}
