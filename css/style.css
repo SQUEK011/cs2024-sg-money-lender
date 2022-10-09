@@ -151,12 +151,21 @@ footer .nav-link:hover {
   box-shadow: 0 5px 20px;
 }
 
+.head-banner-intro .big-message {
+  font-size: 400%;
+  margin-bottom: 20px;
+}
+
+.head-banner-intro p {
+  font-size: 140%;
+}
+
 /*Company Reputation*/
 .tick-pointers li {
   margin: 0;
 	padding: 25px 0 20px 50px;
 	list-style: none;
-	background-image: url(../assets/patch-check.svg);
+	background-image: url("../assets/svg/patch-check.svg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 30px;
@@ -198,7 +207,7 @@ footer .nav-link:hover {
         width: 10.46rem;
         position: absolute;
         left: 7.5rem;
-        top: .3125rem
+        top: .7125rem
     }
     .timeline-steps .timeline-step:not(:first-child):before {
         content: "";
@@ -207,7 +216,7 @@ footer .nav-link:hover {
         width: 10.8125rem;
         position: absolute;
         right: 7.5rem;
-        top: .3125rem
+        top: .7125rem
     }
 }
 
@@ -217,13 +226,15 @@ footer .nav-link:hover {
 }
 
 .timeline-steps .timeline-content .inner-circle {
-    border-radius: 1.5rem;
-    height: 1rem;
-    width: 1rem;
+    border-radius: 3rem;
+    height: 2rem;
+    width: 2rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #3b82f6
+    background-image: url("../assets/svg/patch-check.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .timeline-steps .timeline-content .inner-circle:before {
@@ -237,6 +248,4 @@ footer .nav-link:hover {
     opacity: .5
 }
 
-.loan-types-container .card img {
-    opacity: 75%;
-}
+
