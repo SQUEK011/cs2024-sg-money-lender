@@ -248,4 +248,18 @@ footer .nav-link:hover {
     opacity: .5
 }
 
+.piggy-resized {
+    width:540px; 
+    height: auto;
+}
+
+.personal-loan-banner .big-message{
+  font-size: 400%;
+  margin-bottom: 20px;
+}
+
+.col-md-4 {
+  flex: 0 0 auto;
+    width: 33.33333333%;
+}
 
