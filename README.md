@@ -140,7 +140,7 @@ For any questions or bugs encountered in the codes, please send an email to shen
 
 This project was created by Shen An & Andy [@iChimmy](https://github.com/iChimmy) for CS2024 Assignment in Nanyang Technological University (NTU).
 
-Logo and Image Assets was created using [!Canva[Canva.com]][canva-url]
+Logo and Image Assets was created using [!Canva[canva.com]][canva-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
