@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="#readme-top">
-    <img src="assets/img/logo_crop.png" alt="Logo" width="80px" height="80px">
+    <img src="assets/logo_crop.png" alt="Logo" width="80px" height="80px">
   </a>
 
   <h3 align="center">SG Money Lender</h3>
@@ -55,6 +55,8 @@ SG Money Lender is a fictional a professional moneylending / credit company spec
 
 This website serves to generate more leads for the company.
 
+For this website, the requirement is to produce 3 pages.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Project Structure
@@ -94,7 +96,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/SQUEK011/aestica-aesthetics-clinic.git
+   git clone https://github.com/SQUEK011/cs2024-sg-money-lender.git
    ```
 2. Run the application
 
